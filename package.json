@@ -1,0 +1,26 @@
+{
+  "name": "bamazon",
+  "version": "1.0.0",
+  "description": "Amazon-like storefront application is a node.js/MySQL application built to take in orders from customers and deplete stock from the store's inventory. The app can also look for low inventory, add inventory and add new product to the database. The app allows the user to have a Customer View and a Manager View.",
+  "main": "bamazonCustomer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jkasu/Bamazon.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jkasu/Bamazon/issues"
+  },
+  "homepage": "https://github.com/jkasu/Bamazon#readme",
+  "dependencies": {
+    "cli-table": "^0.3.1",
+    "colors": "^1.2.5",
+    "inquirer": "^5.2.0",
+    "mysql": "^2.15.0",
+    "word-wrap": "^1.2.3"
+  }
+}
